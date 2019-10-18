@@ -6,7 +6,7 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(data:image/svg+xml;charset=utf-8;base64,<%= Base64.strict_encode64(Rails.application.assets['fontawesome-webfont.svg'].source) %>) format('svg');
+  src: url(data:image/svg+xml;charset=utf-8;base64,<%= Base64.strict_encode64(depend_on_asset('platform.css').source) %>) format('svg');
   font-weight: normal;
   font-style: normal;
 }
